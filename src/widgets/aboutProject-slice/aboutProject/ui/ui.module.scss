@@ -185,7 +185,10 @@
       }
       max-width: 480px;
       border-radius: 48px;
-      background: linear-gradient(0deg, #c4c4c4 0%, #c4c4c4 100%), #d9d9d9;
+      background: url("../../../../../public/assets/lamp.svg");
+      background-position: center center;
+      background-size: contain;
+      background-repeat: no-repeat;
     }
   }
   .black_block {

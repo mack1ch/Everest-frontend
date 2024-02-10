@@ -166,7 +166,10 @@
       }
     }
     .img {
-      background: #c4c4c4;
+      background: url("../../../../../public/assets/ladder.svg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
       border-radius: 20px;
       height: 100%;
       width: 40%;
