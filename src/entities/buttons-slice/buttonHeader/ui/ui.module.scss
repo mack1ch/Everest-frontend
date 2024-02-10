@@ -1,0 +1,32 @@
+.btn {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  outline: none;
+  display: flex;
+  padding: 9px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-wrap: nowrap;
+  background: transparent;
+  transition: all 0.2s;
+
+  @media screen and (max-width: 768px) {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+  &:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+  }
+
+  &:active {
+    display: block;
+    transform: scale(1.03);
+  }
+}
