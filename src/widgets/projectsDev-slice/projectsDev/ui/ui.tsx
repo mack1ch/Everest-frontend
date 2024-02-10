@@ -19,7 +19,7 @@ export const ProjectDev = () => {
                 />
                 <span className={styles.text}>
                   {item.text_first}{" "}
-                  <span className={styles.bold}>{item.boldText}</span>{" "}
+                  <span className={styles.bold}>{item.boldText}</span>
                   {item.text_second}
                 </span>
               </li>
