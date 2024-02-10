@@ -21,11 +21,11 @@ export const Team = () => {
   }, [windowSize]);
 
   const handleLeftArrowClick = () => {
-    setOffset("-100%");
+    setOffset("0");
   };
 
   const handleRightArrowClick = () => {
-    setOffset("0px");
+    setOffset("-100%");
   };
 
   return (
