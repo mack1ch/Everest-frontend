@@ -6,7 +6,7 @@ import { ValidationError, useForm } from "@formspree/react";
 import Link from "next/link";
 
 export const Form = () => {
-  const [state, handleSubmit] = useForm("mqkrprqq");
+  const [state, handleSubmit] = useForm("xoqgdaee");
   if (state.succeeded) {
     Toast.push("Форма отправлена", null, 1500);
   }
