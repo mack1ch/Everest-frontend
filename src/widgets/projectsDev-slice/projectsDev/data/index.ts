@@ -14,7 +14,7 @@ export const ProjectDevData: IProjectDevItem[] = [
   {
     id: 1,
     text_first: "Получено заключение",
-    boldText: "ИСЭМСО РАН",
+    boldText: "ИСЭМ СО РАН",
     text_second: ", с рекомендацией к реализации в рамках пилотного проекта",
   },
   {
