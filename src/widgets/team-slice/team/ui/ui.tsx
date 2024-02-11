@@ -75,7 +75,15 @@ export const Team = () => {
                           </li>
                         ))}
                       </ul>
-                      <div className={styles.img} />
+                      <div
+                        className={styles.img}
+                        style={{
+                          background: `url(${item.profileLogo?.src})`,
+                          backgroundPosition: "center center",
+                          backgroundSize: "cover",
+                          backgroundRepeat: "no-repeat",
+                        }}
+                      />
                     </div>
                   </div>
                 </article>
